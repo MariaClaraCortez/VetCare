@@ -2,11 +2,12 @@
 @import url(/css/design-system.css);
 
 
-.vet-section{
+/* .vet-section{
     display: flex;
     height: 100vh;
     width: 100%;
 }
+
 
 .vet-section__sidebar{
     display: flex;
@@ -26,10 +27,11 @@
     text-align: center;
     /* Espaçamento entre as letras */
     letter-spacing: o.5px;
-}
+ /* } */ 
 
-.vet-section__menu{
+/* .vet-section__menu{
     display: flex;
     flex-direction: column;
     gap: 12px;
-}
+} 
+*/ 
