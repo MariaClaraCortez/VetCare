@@ -3,16 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="VetCare Hospital Veterinário: atendimento especializado para cães, gatos e animais silvestres.">
     <title>VetCare - Hospital Veterinário</title>
-    <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/design-system.css">
     <link rel="stylesheet" href="css/global.css">
-    <link rel="stylesheet" href="css/responsive.css">
 </head>
 <body>
     <header class="cabecalho">
-        <aside class="cabecalho__barra-lateral">
+        <aside class="cabecalho__barra-lateral" aria-label="Navegação principal">
             <a class="cabecalho__titulo" href="#home">VetCare Hospital</a>
             <nav class="cabecalho__navegacao">
                 <a href="#home" class="cabecalho__link">Início</a>
@@ -25,7 +21,7 @@
     </header>
 
     <main class="conteudo-principal">
-        <section id="home" class="inicio-secao">
+        <section id="home" class="inicio secao">
             <div class="inicio__conteudo">
              
                 <h1 class="inicio__titulo">Cuidados Especializados e Amor ao Seu Pet</h1>
@@ -37,29 +33,31 @@
                 </p>
             </div>
             <div class="inicio__imagem">
-                <img src="https://placehold.co/600x400/059669/ffffff?text=VetCare+Hospital"
+                <img src="https://images.pexels.com/photos/17807528/pexels-photo-17807528.jpeg"
                      alt="Equipe veterinária cuidando de um animal" fetchpriority="high">
             </div>
         </section>
 
-        <section id="especialidades" class="especialidades-secao">
+        <section id="especialidades" class="especialidades secao">
             <div class="especialidades__conteudo">
                 <div class="secao__titulo-secao">
                     <p class="secao__subtitulo">Atendimento especializado</p>
                     <h2 class="secao__titulo">Nossas Especialidades</h2>
+                    <span class="secao__decoracao" aria-hidden="true"></span>
                 </div>
                 <div class="especialidades__lista">
                     <article class="especialidades__cartao">
-                        <span class="especialidades__numero" >01</span>
+                        <span class="especialidades__numero" aria-hidden="true">01</span>
                         <h3 class="especialidades__titulo-cartao">Cardiologia Veterinária</h3>
                         <p class="especialidades__texto-cartao">Avaliação preventiva e exames ecocardiográficos avançados para garantir a saúde cardíaca do seu animal.</p>
                     </article>
                     <article class="especialidades__cartao">
-                        <span class="especialidades__numero" >02</span>
+                        <span class="especialidades__numero" aria-hidden="true">02</span>
                         <h3 class="especialidades__titulo-cartao">Ortopedia e Traumatologia</h3>
                         <p class="especialidades__texto-cartao">Cirurgias complexas e tratamento de fraturas com equipamentos de última geração.</p>
                     </article>
                     <article class="especialidades__cartao">
+                        <span class="especialidades__numero" aria-hidden="true">03</span>
                         <h3 class="especialidades__titulo-cartao">Dermatologia Especializada</h3>
                         <p class="especialidades__texto-cartao">Diagnóstico preciso de alergias, infecções cutâneas e tratamentos terapêuticos modernos.</p>
                     </article>
@@ -67,7 +65,7 @@
             </div>
         </section>
 
-        <section id="equipe" class="equipe-secao">
+        <section id="equipe" class="equipe secao">
             <div class="equipe__conteudo">
                 <div class="secao__titulo-secao">
                     <p class="secao__subtitulo">Profissionais qualificados</p>
@@ -109,17 +107,18 @@
             </div>
         </section>
 
-        <section id="infraestrutura" class="infraestrutura-secao">
+        <section id="infraestrutura" class="infraestrutura secao">
             <div class="infraestrutura__conteudo">
                 <p class="secao__subtitulo">Tecnologia e segurança</p>
                 <h2 class="secao__titulo">Estrutura e Horários de Atendimento</h2>
+                <span class="secao__decoracao" aria-hidden="true"></span>
                 <p class="infraestrutura__texto">
                     Contamos com centro cirúrgico equipado com anestesia inalatória, laboratório de análises
                     clínicas próprio e leitos de UTI individualizados com monitoramento contínuo.
                 </p>
             </div>
             <article class="infraestrutura__cartao">
-                <div class="infraestrutura__icone">24h</div>
+                <div class="infraestrutura__icone" aria-hidden="true">24h</div>
                 <h3 class="infraestrutura__titulo-cartao">Informação de Atendimento</h3>
                 <p class="infraestrutura__texto-cartao">Pronto Atendimento 24h para urgências e emergências.</p>
                 <p class="infraestrutura__texto-cartao">Consultas ambulatoriais de segunda a sábado, das 08h às 20h.</p>
@@ -131,6 +130,7 @@
                 <div class="secao__titulo-secao">
                     <p class="secao__subtitulo">Estamos aqui para ajudar</p>
                     <h2 class="secao__titulo">Perguntas Frequentes</h2>
+                    <span class="secao__decoracao" aria-hidden="true"></span>
                 </div>
                 <div class="duvidas__lista">
                     <details class="duvidas__item">
@@ -160,6 +160,8 @@
             <p class="rodape__direitos-autorais">&copy; 2026 VetCare. Todos os direitos reservados.</p>
         </div>
     </footer>
-        <a href=""></a>
+
+    <a class="botao-whatsapp"href="https://wa.me/551633033800" target="_blank" aria-label="Whatsapp VetCare"></a>
+
 </body>
 </html>

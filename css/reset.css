@@ -1,11 +1,24 @@
-*{
+
+* {
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-    font-family: Helvetica, sans-serif;
 }
 
-html{
-    scroll-behavior: smooth;
-    overflow-x: hidden;
+html {
+    font-size: 62.5%;
 }
+
+body {
+    min-height: 100vh;
+    font-family: var(--font-main);
+    font-size: 1.6rem;
+    line-height: 1.6;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+
